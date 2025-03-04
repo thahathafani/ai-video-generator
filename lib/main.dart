@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  runApp(MyApp());
+  runApp(AiVideoGApp());
 }
 
-class MyApp extends StatelessWidget {
+class AiVideoGApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
